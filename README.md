@@ -30,7 +30,10 @@ This repository contains a growing, comprehensive set of SQL challenges designed
    cd "Data Engineer SQL"
    ```
 
-2. **Spin up the Database Environment**:
+2. **Download the Dataset**:
+   Download the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) from Kaggle. Extract the CSV files and place them inside the `seed/` directory in this project.
+
+3. **Spin up the Database Environment**:
    Run the following command to start the PostgreSQL container. This will automatically run `init.sql` to create the schema and populate it with the Olist CSV seed data.
    ```bash
    docker-compose up -d
