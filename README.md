@@ -18,7 +18,8 @@ This repository contains a growing, comprehensive set of SQL challenges designed
   - [x] 8. Query Optimization & Performance Tuning
   - [x] 9. Views & Materialized Views
   - [x] 10. Stored Procedures & Triggers
-  - [ ] 11. E-Commerce RFM Analysis (Recency, Frequency, Monetary)
+  - [x] 11. E-Commerce RFM Analysis (Recency, Frequency, Monetary)
+  - [ ] 12. Geospatial Distance Analysis
 - **Dockerized Postgres Environment**: Easily spin up the entire database locally with Docker Compose, complete with automatic table creation and seed data ingestion.
 
 ## 🛠 Prerequisites
