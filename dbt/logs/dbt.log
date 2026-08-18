@@ -1,0 +1,9 @@
+==================== 2026-08-18T12:34:43.197775Z | 01a014dd-eb7b-7cf0-bebe-ef923cd437b5 ====================
+12:34:43.198118 [info ]: dbt-core 2.0.0-beta.1
+12:34:43.198470 [info ]: Started loading project
+12:34:43.200466 [info ]: Loading profiles.yml
+12:34:43.201685 [info ]: Finished loading project [  0.00s]
+12:34:43.201812 [error]: [InvalidConfig (dbt1005)]: Configuration Error: The 'postgres' adapter is not yet supported by dbt Fusion. Supported adapters: snowflake, bigquery, databricks, redshift, duckdb, salesforce, clickhouse. To use an experimental adapter, set the environment variable DBT_ALLOW_EXPERIMENTAL_ADAPTERS=true. Note that experimental adapters may be unstable and are not yet recommended for production use.
+12:34:44.172357 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [974ms]

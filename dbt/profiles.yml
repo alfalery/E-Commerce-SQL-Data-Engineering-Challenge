@@ -1,0 +1,13 @@
+olist_postgres:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: host.docker.internal
+      user: data_engineer
+      password: password123
+      port: 5432
+      dbname: olist
+      schema: public
+      threads: 4
+      keepalives_idle: 0
