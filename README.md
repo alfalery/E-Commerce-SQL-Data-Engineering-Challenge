@@ -13,9 +13,12 @@ This repository contains a growing, comprehensive set of SQL challenges designed
   - [x] 3. Aggregations & `GROUP BY`
   - [x] 4. Subqueries & CTEs (Common Table Expressions)
   - [x] 5. Window Functions (`ROW_NUMBER()`, `RANK()`, `SUM() OVER()`)
-  - [ ] *6. Advanced Analytics & Cohort Analysis (WIP)*
-  - [ ] *7. Data Cleaning & String Manipulations (Planned)*
-  - [ ] *8. Query Optimization & Performance Tuning (Planned)*
+  - [x] 6. Advanced Analytics & Cohort Analysis
+  - [x] 7. Data Cleaning & String Manipulations
+  - [x] 8. Query Optimization & Performance Tuning
+  - [x] 9. Views & Materialized Views
+  - [x] 10. Stored Procedures & Triggers
+  - [ ] 11. E-Commerce RFM Analysis (Recency, Frequency, Monetary)
 - **Dockerized Postgres Environment**: Easily spin up the entire database locally with Docker Compose, complete with automatic table creation and seed data ingestion.
 
 ## 🛠 Prerequisites
